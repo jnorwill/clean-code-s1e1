@@ -67,7 +67,7 @@ button:hover {
 
 /* Heading */
 
-h3, label[for="block-add-item-new-task"] {
+h3, label[for="add-item-new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -96,12 +96,12 @@ input[type="text"]:focus {
 
 /* New Task */
 
-label[for="block-add-item-new-task"] {
+label[for="add-item-new-task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-input#block-add-item-new-task {
+input#add-item-new-task {
   width: 318px;
 }
 
@@ -152,7 +152,7 @@ button.delete img:hover {
 
 /* Completed */
 
-ul#block-completed label {
+ul#completed label {
   text-decoration: line-through color: #888;
 }
 
