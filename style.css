@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 
-.header .header-link {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -72,7 +72,7 @@ button:hover {
 /* Heading */
 
 h3, 
-label[for="add-item-new-task"] {
+label[for="add-item__new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,12 +101,12 @@ input[type="text"]:focus {
 
 /* New Task */
 
-label[for="add-item-new-task"] {
+label[for="add-item__new-task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-#add-item-new-task {
+#add-item__new-task {
   width: 318px;
 }
 
